@@ -4,8 +4,7 @@ import { View, TextInput, Button, Alert, Text, StyleSheet } from "react-native";
 export default function App() {
   const [videoUrl, setVideoUrl] = useState("");
 
-  const backendURL = "https://youtube1-fz0d.onrender.com/download";
-
+  const backendURL = "https://finalyoutube1.onrender.com/download"; // Use your actual IP
 
   const handleDownload = async () => {
     if (!videoUrl) {
